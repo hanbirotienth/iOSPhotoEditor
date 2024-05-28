@@ -39,6 +39,39 @@ public final class PhotoEditorViewController: UIViewController {
     @IBOutlet weak var shareButton: UIButton!
     @IBOutlet weak var clearButton: UIButton!
     
+    public func getCropButton() -> UIButton {
+        return self.cropButton
+    }
+    
+    public func getStickerButton() -> UIButton {
+        return self.stickerButton
+    }
+    
+    public func getDrawButton() -> UIButton {
+        return self.drawButton
+    }
+    
+    public func getTextButton() -> UIButton {
+        return self.textButton
+    }
+    
+    public func getSaveButton() -> UIButton {
+        return self.saveButton
+    }
+    
+    public func getShareButton() -> UIButton {
+        return self.shareButton
+    }
+    
+    
+    public func getClearButton() -> UIButton {
+        return self.clearButton
+    }
+    
+    public func getDoneButton() -> UIButton {
+        return self.doneButton
+    }
+    
     public var image: UIImage?
     /**
      Array of Stickers -UIImage- that the user will choose from
